@@ -1,0 +1,148 @@
+<!--Indica que version de HTML estamos usando (DOCTYPE)-->
+<!-- En HTML se usan 2 espacios de Identacion-->
+
+
+<!DOCTYPE html>
+<!-- lang es Language para la pagina web-->
+<html lang="es">
+  <!-- head contiene todos los elementos que actuan de fondo y sirven para el ceo -->
+  <head>
+    <!-- Importado de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+
+    <!-- rel significa relationship y stylesheet significa hoja de estilo  -->
+    <link href="style.css" rel="stylesheet">
+    <title> Edificios by Nando</title>
+    <h1 id="titulo-pagina"> Hola, Mundo!</h1>
+    <!-- es CSS para colorear -->
+  <!-- <h2 style="color: blueviolet"> Probando colores</h2> -->
+  <!-- <style>
+    h2 {
+      color:blueviolet
+    }
+    h3 {
+      color: aqua;
+    }
+    p {
+      color: darkred;
+    } -->
+
+  </style>
+  <h2> Probando colores</h2>
+  </head>
+
+  <body>
+    <main>
+      <h3> Hola, a todos!</h3>
+      <!-- P son parrafos -->
+      <!-- A son etiquetas, href es la referencia al enlace, targer es donde queremos abrir el enlace,
+      rel es un sistema de seguridad para impedir que se imite un ingreso de usuarios (Tabnabbing) -->
+        <p>
+        Como estan, como dicen que les va? <a href="https://www.google.com/search?q=Yo,+muy+bien!&client=opera-gx&hl=en-US&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjjt6mSkqH6AhUJ-qQKHdCvAAsQ_AUoAXoECAEQAw&biw=1325&bih=658&dpr=1" target="_blank" rel="noopener noreferrer"> Yo, muy bien!</a>
+      </p>
+      <!-- # Sirve para tener un link vacio de prueba (Dead links)-->
+      <a href="#">Prueba</a>
+
+      <a href="#parrafo-1">Parrafo 1</a>
+
+      <a href="#-explicacion">Explicacion</a>
+      
+      <p> ASDDDDDDDDDDD
+        DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+        DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+        DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDSSSSSDDD</p>
+        
+        <!-- hr es Horizontal Rule sirve para poner una linea -->
+        <hr>
+
+        <!-- src es Source -->
+        <!-- alt agrega descripcion de la imagen por si no anda internet -->
+        <a href="https://images.pexels.com/photos/1707215/pexels-photo-1707215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" rel="noopener noreferrer"><img src="https://images.pexels.com/photos/1707215/pexels-photo-1707215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Edificios iluminados en la noche." class="bordes-redondeados"></a>
+        <img id="prueba-edificio" src="images/cityscape-night-view-skyscrapers-architecture-modern-lights-aerial-view-1158-Wallpapermoderna.jpg" alt="Edificio panoramico" class="imagen-redondeada">
+        <img id="edificio-retro-prueba" src="images/edificio-retro.jpg" alt="edificio estilo retro">
+        <hr>
+
+        <!-- <img src="images/delicious-cheeseburger.jpg" alt="Una hamburguesa"> -->
+        
+        <!-- ID es identificador unico -->
+        <h3 id="parrafo-1">Parrafo 1</h3>
+        <p>JavaScript is the core language of the web, and the only programming language that can run in all major web browsers.
+
+          Notably, JavaScript has no relation to Java. Check out JavaScript: The World’s Most Misunderstood Programming Language.
+          
+          The official name of JavaScript is ECMAScript defined under Standard ECMA-262.
+          
+          If you want to learn more about the JavaScript language, and why it’s so widely used, read Quincy Larson’s article - Which programming language should I learn first? - or watch this inspiring video from Preethi Kasireddy.
+          
+          freeCodeCamp has an in-depth JavaScript tutorial on YouTube that will teach you all the fundamentals in just 3 hours.</p>
+          
+        <h3 id="-explicacion">Explicacion</h3>
+        <!-- strong resalta letra en negrita -->
+        <h4>Some <strong>other good</strong> JavaScript tutorials:</h4>
+        <!-- ul es lista no ordenada -->
+        <!-- La clase sirve para CSS -->
+        <ul class="explicacion">
+            <li>JavaScript for Cats</li>
+            <li>The Modern JavaScript Tutorial</li>
+            <li>Professor Frisby’s Mostly Adequate Guide to Functional Programming</li>
+            <li>Eloquent Javascript (annotated)</li>
+            <li>Speaking Javascript</li>
+            <li>Exploring ES6</li>
+            <li>Udemy - Javascript Understanding the Weird Parts (first 3.5 hrs)</li>
+            <li>Functional programming in JavaScript</li>
+            <li>Introduction to JavaScript: First Steps</li>
+            <li>Douglas Crockford’s Videos</li>
+            <li>Modern JS Cheatsheet</li>
+            <li>The 50 Best Websites to Learn JavaScript</li>
+            <li>Codementor JavaScript tutorial</li>
+            <li>You Might Not Need jQuery</li>
+        </ul>
+        <h4>Prueba 2</h4>
+        <!-- ol son listas ordenadas -->
+        <!-- La clase sirve para CSS -->
+        <ol class="explicacion">
+          <li> Como prueba</li>
+          <!-- em pone letra en cursiva -->
+          <li>Como <em>pruebaa</em></li>
+          <!-- s es para tachar una palabra (Strikethrough) -->
+          <li><s>Como pruebas</s></li>
+        </ol>
+
+        <!-- div son contenedores y sirve para presentar mejor el codigo -->
+        <div>
+        <!-- form es formulario -->
+          <h3> Formulario</h3>
+          <form action="/enviar-respuesta">
+            <!-- placeholder es un marcador de posiciones (sirve para señalizar que escribir) -->
+            <!-- required hace un campo obligatorio -->
+            <input type="text" placeholder="Put your name" required><br>
+            <!-- label es una etiqueta sirve para seleccionar el texto del boton tambien al clickearlo -->
+            <!-- name sirve para que ambas opciones pertenezcan al mismo grupo (y no se pueda seleccionar ambas) -->
+            <br>
+
+            <label for="human"><input id="human" type="radio" value="human" name="human-or-not">I'm human</label>
+
+            <!-- br es break y sirve para separar elementos -->
+            <br>
+            <!-- checked sirve para tener una opcion ya marcada por defecto -->
+            <!-- value sirve para que el servidor sepa que opcion se selecciono -->
+            <label for="not-human"><input id="not-human" type="radio" value="not-humna" name="human-or-not" checked>I'm not human</label>
+            <br><br>
+            <label for="checkbox"><input id="checkbox" value="terminos" name="checkbox" type="checkbox">Acepto los terminos y condiciones</label><br><br>
+            <button type="submit">Sent</button>
+          </form>
+        </div>
+
+        </main>
+        <footer><br><br>
+        <!-- small es para hacer el texto mas pequeño -->
+        <p><small>Elaborado por - Fernando Perez</small></p>
+        </footer> 
+        
+
+    </body>
+
+</html>

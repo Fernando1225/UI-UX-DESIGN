@@ -1,0 +1,71 @@
+/* Selector universal (*) */
+/* * {color:black} */
+
+  h1 {font-family: 'Roboto', sans-serif;}
+  
+  /*  Van con comillas porque no son nombres genericos, se separan con coma por si falla alguno
+  esta el otro disponible, siempre al final va un nombre generico (porque los navegadores
+  lo reconocen mas facilmente) */
+  
+  h2 {font-size: 30px;}
+  h2 { font-family: 'Times New Roman', Times, serif;}
+
+  p,
+  ul,
+  ol {
+    font-size: 20px;
+  }
+
+  #titulo-pagina {
+    font-size: 50px;
+    color: azure;
+    font-style: italic;
+  }
+  h2 {
+    color:blueviolet
+  }
+  h3 {
+    color: aqua;
+  }
+  h4 {
+    color: beige;
+    font-size: 15px;
+  }
+  p {
+    color: darkred;
+  }
+  /* Las clases van con puntos */
+  .explicacion {
+    color: burlywood;
+  }
+  /* width es el ancho */
+  img {
+    width: 400px;
+    border-width: 5px;
+    border-style:double dashed;
+    border-color: blueviolet;
+  }
+  /* padding es para tener una distancia entre la imagen y el elemento*/
+  /* margin es el margen de distancia entre elemento y elemento (mismos comandos que con padding)*/
+  #prueba-edificio {
+    margin: 20px;
+    padding: 50px 30px 30px;
+    padding-bottom: 30px;
+    background-color: rgba(8, 8, 165, 0.178);
+  }
+  #edificio-retro-prueba {
+    margin-top: 30px;
+    margin-left: 400px;
+  }
+
+
+  .bordes-redondeados {
+    border-radius: 20px;
+  }
+  .imagen-redondeada {
+    border-radius: 50%;
+    width: 600px;
+  }
+div {
+  background-color: darkslateblue;
+}
